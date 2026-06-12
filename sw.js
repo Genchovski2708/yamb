@@ -1,6 +1,6 @@
 // Cache-first service worker so the game works fully offline after first load.
 // Bump CACHE_VERSION on every deploy to push updates to installed clients.
-const CACHE_VERSION = 'yamb-v1';
+const CACHE_VERSION = 'yamb-v2';
 const ASSETS = [
   './',
   './index.html',

@@ -249,7 +249,7 @@ function writeCell(table, row, col) {
 }
 
 function callCell(table, row) {
-  state.call_cell_action(table, row);
+  state.call_cell_action(table, row, 3);
   afterAction();
 }
 
